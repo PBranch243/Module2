@@ -27,6 +27,29 @@ nav ul{
 /*changed units for img element from px to vw.  looks a little
 big on browser, but i like the mobile view.  maybe switch back to px and put a media query in */
 img{
-    height: 30vw;
+    height: 40vw;
     width: 30vw;
+}
+/*lets create a class which can be applied to the sections so that a title will display
+on the left, and the information will display wider on the right.*/
+
+/*I plan to write a media query later so that the title will stack on top of the information
+for better mobile viewing*/
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.column h2{
+    width: 20vw;
+    padding-left: 15px;
+    border-right: 2vw solid black;
+
+}
+
+.column p{
+    width: 75vw;
+    padding: 5vw;
 }
