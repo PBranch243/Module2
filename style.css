@@ -3,16 +3,28 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(152, 243, 47);
+    color: black;
 }
+/*
 body{
-    background-color: black;
-}
-header{
     background-image: url('./assets/portfolio-hero.jpg');
-    
-
 }
+*/
+header{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
 img{
     height: 100px;
     width: 100px;
