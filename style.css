@@ -5,11 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-/*
+
 body{
-    background-image: url('./assets/portfolio-hero.jpg');
+    background-image: url('./assets/unnamed.jpg');
 }
-*/
+
 header{
    
     display: flex;
@@ -39,17 +39,43 @@ for better mobile viewing*/
 .column {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: top;
+    margin-top: 10px;
 }
 
 .column h2{
-    width: 20vw;
+    
     padding-left: 15px;
-    border-right: 2vw solid black;
-
+    border: 2px solid black;
+    min-width: 200px;
+    font-size: 14pt;
+    margin-right: 10px;
 }
 
-.column p{
+.column p , .column ul, .work{
     width: 75vw;
     padding: 5vw;
+    padding-top: 0;
+}
+.column ul {
+    display: flex;
+    justify-content: space-around;
+}
+.column ul li {
+    list-style: none;
+}
+.main-project{
+    background-color: aqua;
+    
+}
+.projects {
+   
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+.projects div{
+    width: 50%;
+    padding: 10px;
+    background-color: blueviolet;
 }
