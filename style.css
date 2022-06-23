@@ -26,7 +26,7 @@ nav ul{
 
 /*changed units for img element from px to vw.  looks a little
 big on browser, but i like the mobile view.  maybe switch back to px and put a media query in */
-img{
+.profile {
     height: 40vw;
     width: 30vw;
 }
@@ -65,7 +65,7 @@ for better mobile viewing*/
     list-style: none;
 }
 .main-project{
-    background-color: aqua;
+    background-color: transparent;
     
 }
 .projects {
@@ -77,5 +77,5 @@ for better mobile viewing*/
 .projects div{
     width: 50%;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: aqua;
 }
